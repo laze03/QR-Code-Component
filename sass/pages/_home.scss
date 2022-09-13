@@ -1,0 +1,41 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Outfit';
+  font-size: $default-font-size;
+  background-color: $bg-color;
+}
+
+.qr {
+  background-color: $white-color;
+  padding: 2rem;
+  border-radius: $border-radius;
+  width: 30rem;
+}
+
+.image-section {
+}
+
+.image {
+  width: 100%;
+  background-image: url(images/image-qr-code.png);
+  border-radius: $border-radius;
+}
+
+.text-section {
+  margin: 0;
+  text-align: center;
+}
+
+.primary-heading{
+  color: $primary-color;
+  font-size: $title-font-size;
+  padding: 1.5rem 0;
+}
+
+.text {
+  color: $gray-color;
+  padding-bottom: 2rem;
+}

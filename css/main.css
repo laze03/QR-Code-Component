@@ -1,0 +1,54 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit";
+  font-size: 1.5rem;
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+.qr {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 30rem;
+}
+
+.image {
+  width: 100%;
+  background-image: url(images/image-qr-code.png);
+  border-radius: 1rem;
+}
+
+.text-section {
+  margin: 0;
+  text-align: center;
+}
+
+.primary-heading {
+  color: hsl(218deg, 44%, 22%);
+  font-size: 2rem;
+  padding: 1.5rem 0;
+}
+
+.text {
+  color: hsl(220deg, 15%, 55%);
+  padding-bottom: 2rem;
+}
+
+/*# sourceMappingURL=main.css.map */
